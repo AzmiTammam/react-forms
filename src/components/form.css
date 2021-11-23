@@ -1,0 +1,45 @@
+* {
+      background-color: aliceblue;
+}
+
+.create {
+      max-width: 400px;
+      margin: 0 auto;
+      text-align: center;
+}
+
+.create label {
+      text-align: left;
+      display: block;
+}
+
+.create h1 {
+      margin-top: 180px;
+      font-size: 24px;
+      color: deeppink;
+      margin-bottom: 30px;
+}
+
+.create input, .create textarea, .create select {
+      width: 100%;
+      padding: 6px 10px;
+      margin: 10px 0;
+      border: 1px solid #ddd;
+      box-sizing: border-box;
+      display: block;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.create button {
+      background-color: deeppink;
+      color: whitesmoke;
+      border: 0;
+      padding: 8px 35px;
+      border-radius: 8px;
+      cursor: pointer;
+}
+
+.create button:hover {
+      background-color: rgb(255, 61, 164);
+      transition: .5s ease;
+}
